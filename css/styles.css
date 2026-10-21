@@ -1,5 +1,5 @@
 body {
-    background-color: aqua;
+    background-color: rgb(170, 225, 238);
 }
 
 .recipe-container {
@@ -11,11 +11,21 @@ body {
 }
 
 .recipe-container.h2 {
-    background-color: blueviolet;
+    background-color: rgb(56, 22, 209);
     padding: 10px 15px;
     border: 2px solid;
     border-color: green;
     border-radius: .4em;
+    color: white;
+}
+
+.recipe-container h3 {
+    background-color: rgb(56, 22, 209);
+    padding: 10px 15px;
+    border: 2px solid;
+    border-color: green;
+    border-radius: .4em;
+    color: white;
 }
 
 .recipe-container.item {
@@ -40,4 +50,23 @@ body {
 
 .recipe-container.item:hover {
     background-color: rgb(38, 179, 52);
+}
+
+.recipe-container.lasagna {
+    text-align: start;
+}
+
+.lasagna-container {
+    text-align: center;
+}
+
+.recipe-container.text {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.2em;
+}
+
+.recipe-container li {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.2em;
+
 }
